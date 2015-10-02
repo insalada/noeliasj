@@ -1,0 +1,21 @@
+.navbar {
+    background-color: mediumpurple;
+    border-color: mediumpurple;
+    border-radius: 0 !important;
+}
+
+.navbar a{
+    color: white !important;
+    -moz-transition: opacity 4s; /* Firefox */
+    -webkit-transition: opacity 4s; /* Safari and Chrome */
+    -o-transition: opacity 4s; /* Opera */
+    transition: opacity 4s;
+}
+
+.navbar a:hover{
+    color: rebeccapurple!important;
+    -moz-transition: opacity 4s; /* Firefox */
+    -webkit-transition: opacity 4s; /* Safari and Chrome */
+    -o-transition: opacity 4s; /* Opera */
+    transition: opacity 4s;
+}

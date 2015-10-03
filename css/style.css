@@ -1,21 +1,30 @@
 .navbar {
-    background-color: mediumpurple;
-    border-color: mediumpurple;
+    background-color: #614789;
+    border-color: #614789;
     border-radius: 0 !important;
 }
 
 .navbar a{
     color: white !important;
-    -moz-transition: opacity 4s; /* Firefox */
-    -webkit-transition: opacity 4s; /* Safari and Chrome */
-    -o-transition: opacity 4s; /* Opera */
-    transition: opacity 4s;
 }
 
 .navbar a:hover{
-    color: rebeccapurple!important;
-    -moz-transition: opacity 4s; /* Firefox */
-    -webkit-transition: opacity 4s; /* Safari and Chrome */
-    -o-transition: opacity 4s; /* Opera */
-    transition: opacity 4s;
+    color: lightgrey!important;
+
+}
+
+#main{
+    color: grey!important;
+    border-color: grey!important;
+    display: none;
+}
+
+#noemain{
+    display: none;
+    max-width:75%;
+    max-height:75%;
+}
+
+#mainquote{
+    /*text-align: justify;*/
 }

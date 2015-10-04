@@ -28,3 +28,52 @@
 #mainquote{
     /*text-align: justify;*/
 }
+
+.bs-icons-list{
+    padding-left: 0px;
+    list-style: outside none none;
+}
+
+.bs-icons li{
+    width: 25%;
+    height: 70px;
+    font-size: 16px;
+    float: left;;
+    padding: 15px;
+    text-align: center;
+    /*background-color: lightgray*/;
+    border: 1px solid #FFF;
+    word-break: keep-all;
+    opacity: 0.2;
+    cursor: pointer;
+}
+
+#areas{ display: none;}
+
+.bs-icons li:hover{
+    /*background-color: #614789;
+    color: white;*/
+}
+
+.bs-icons .glyphicon{
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+.glyphicon{
+    display: inline-block;
+}
+
+.glyphicon-class{
+    display: inline-block;
+}
+
+.navheader{
+    top: -20px;
+    background-color: #F9F5FD;
+    border-color:  #F9F5FD;
+}
+
+#maintitle{
+
+}
